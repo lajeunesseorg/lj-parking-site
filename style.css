@@ -1,0 +1,54 @@
+/* Sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* Serif */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    display: grid;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 80%;
+    font-family: 'Merriweather';
+    background-color: #f9fafb;
+}
+
+.title {
+    font-family: 'Lato';
+    font-style: italic;
+    text-align: center;
+    margin-top: 4vh;
+    
+}
+
+.contributor-details {
+    width: 90%;
+    margin: auto;
+    margin-top: 6vh;
+}
+
+.contributor {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.author {
+    font-family: 'Lato';
+    font-style: italic;
+}
+
+.header {
+    display: flex;
+    place-content: center;
+    font-style: normal;
+    background-color: #b91c1c;
+    border-radius: 12px;
+    color: white;
+    padding: 1%;
+    margin-bottom: 4vh;
+}
+
+.header-title {
+    margin-top: 5vh;
+    margin-left: 2%;
+}
