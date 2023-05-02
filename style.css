@@ -9,7 +9,7 @@ body {
     margin-top: 2vh;
     margin-bottom: 2vh;
     width: 80%;
-    max-width: 60ch;
+    max-width: 70ch;
     font-family: 'Merriweather';
     background-color: #f9fafb;
 }
@@ -19,7 +19,6 @@ body {
     font-style: italic;
     text-align: center;
     margin-top: 4vh;
-    font-size: small;
 }
 
 .contributor-details {
@@ -42,6 +41,7 @@ body {
     display: flex;
     place-content: center;
     font-style: normal;
+    font-size: small;
     background-color: #b91c1c;
     border-radius: 12px;
     color: white;
